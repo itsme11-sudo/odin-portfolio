@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* SET BODY TO FLEX */
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* START HEADER SECTION */
+
+.header,
+.main-header,
+footer {
+  color: #f9faf8;
+  background-color: #1f2937;
+  display: flex;
+}
+
+.header {
+  padding: 14px 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header nav ul {
+  list-style: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+}
+/* END HEADER SECTION */
