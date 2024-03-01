@@ -126,3 +126,32 @@ footer {
   border-radius: 8px;
 }
 /* END OF INFORMATION SECTION */
+
+/* START OF TESTIMONIAL SECTION */
+/* END OF TESTIMONIAL SECTION */
+
+.testimonial {
+  padding: 25px 100px;
+
+  background: #e5e7eb;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+.testimonial p:first-child {
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+  max-width: 650px;
+}
+
+.testimonial .author {
+  margin-top: 14px;
+  align-self: flex-end;
+  font-weight: bold;
+}
