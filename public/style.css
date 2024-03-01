@@ -47,9 +47,7 @@ footer {
 
 /* MAIN-HEADER */
 .main-header {
-  padding: 14px 100px;
-
-  height: 500px;
+  padding: 100px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,3 +90,38 @@ footer {
 
 /* END MAIN-HEADER */
 /* END MAIN CONTAINER */
+
+/* START OF INFORMATION SECTION */
+.information {
+  padding: 14px 100px 50px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.information h2 {
+  flex-shrink: 0;
+}
+
+.information .card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.card-container .card {
+  width: 150px;
+  text-align: center;
+}
+.card .card-box {
+  height: 150px;
+  width: 150px;
+
+  border: 2px #3882f6 solid;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+/* END OF INFORMATION SECTION */
