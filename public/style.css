@@ -14,6 +14,11 @@ body {
   justify-content: space-between;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #f9faf8;
+}
 /* START HEADER SECTION */
 
 .header,
@@ -128,7 +133,6 @@ footer {
 /* END OF INFORMATION SECTION */
 
 /* START OF TESTIMONIAL SECTION */
-/* END OF TESTIMONIAL SECTION */
 
 .testimonial {
   padding: 25px 100px;
@@ -147,11 +151,54 @@ footer {
   font-size: 36px;
   font-weight: 100;
   color: #1f2937;
-  max-width: 650px;
+  max-width: 80vw;
 }
 
 .testimonial .author {
   margin-top: 14px;
   align-self: flex-end;
   font-weight: bold;
+}
+
+/* END OF TESTIMONIAL SECTION */
+
+/* START SIGNUP NOW  */
+.signupnow {
+  padding: 25px 100px;
+}
+
+.signup-container {
+  padding: 12px;
+  background: #3882f6;
+
+  color: #e5e7eb;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.signup-container .right-signup {
+  padding: 2px 12px;
+  border: 2px #f9faf8 solid;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+.signup-container .right-signup:hover {
+  border: 1px #e5e7eb solid;
+  border-radius: 5px;
+  color: #e5e7eb;
+}
+/* END SIGNUP NOW  */
+
+footer {
+  padding: 12px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
