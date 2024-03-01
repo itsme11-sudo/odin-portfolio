@@ -26,7 +26,7 @@ footer {
 
 .header {
   padding: 14px 100px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -40,6 +40,7 @@ footer {
   font-size: 18px;
   color: #e5e7eb;
   display: flex;
+  flex-wrap: wrap;
 }
 /* END HEADER SECTION */
 
