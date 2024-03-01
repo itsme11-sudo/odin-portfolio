@@ -30,9 +30,10 @@ footer {
 }
 
 .header {
-  padding: 14px 100px;
-  justify-content: space-around;
+  padding: 14px 120px;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .header h1 {
@@ -46,6 +47,10 @@ footer {
   color: #e5e7eb;
   display: flex;
   flex-wrap: wrap;
+}
+
+.header nav ul li {
+  padding-left: 12px;
 }
 /* END HEADER SECTION */
 
@@ -135,6 +140,8 @@ footer {
 /* START OF TESTIMONIAL SECTION */
 
 .testimonial {
+  display: flex;
+  justify-content: center;
   padding: 25px 100px;
 
   background: #e5e7eb;
